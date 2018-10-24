@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dimen5"
+    android:layout_marginTop="20dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <com.sawatruck.loader.view.design.CustomTextView
+        android:id="@+id/txt_package_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:text="Package 1"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="18dp"
+        android:layout_marginStart="@dimen/dimen30" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen5"
+        android:paddingRight="@dimen/dimen5"
+        app:cardElevation="@dimen/dimen5"
+        card_view:cardCornerRadius="5dp"
+        android:paddingStart="@dimen/dimen5"
+        android:layout_marginEnd="10dp"
+        android:paddingEnd="@dimen/dimen5"
+        android:layout_marginStart="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen5">
+
+            <com.sawatruck.loader.view.design.CustomEditText
+                android:id="@+id/txt_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:hint="@string/quantity"
+                android:inputType="number"
+                android:textColorHint="@color/colorGray"
+                android:textSize="14dp" />
+
+            <com.weiwangcn.betterspinner.library.BetterSpinner
+                android:id="@+id/spinner_vehicle_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:hint="@string/vehicle_type"
+                android:textColorHint="@color/colorGray"
+                android:textSize="14dp" />
+
+            <com.weiwangcn.betterspinner.library.BetterSpinner
+                android:id="@+id/spinner_vehicle_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:hint="@string/vehicle_brand"
+                android:textColorHint="@color/colorGray"
+                android:textSize="14dp" />
+
+            <com.sawatruck.loader.view.design.CustomEditText
+                android:id="@+id/txt_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_edittext"
+                android:hint="@string/model"
+                android:inputType="textPersonName"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="4dp"
+                android:textSize="14dp"
+                android:paddingStart="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorGray"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/dimen5"
+                android:textSize="14dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorGray"
+                    android:text="@string/unit_weight" />
+
+                <com.sawatruck.loader.view.design.NumberButton
+                    android:id="@+id/number_unit_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorGray"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp">
+            </LinearLayout>
+
+            <com.weiwangcn.betterspinner.library.BetterSpinner
+                android:id="@+id/spinner_measure_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:hint="@string/measure_unit"
+                android:textColorHint="@color/colorGray"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

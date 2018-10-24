@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="pickerview:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pickerview.aar/e4fd2f4b3770bff51cba7ec42184e05d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pickerview.aar/e4fd2f4b3770bff51cba7ec42184e05d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

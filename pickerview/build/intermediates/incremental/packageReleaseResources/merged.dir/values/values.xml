@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_cancel_color">#999999</color>
+    <color name="btn_confirm_color">#303F9F</color>
+    <declare-styleable name="LoopView"><attr format="color" name="lineColor"/><attr format="color" name="topBottomTextColor"/><attr format="color" name="centerTextColor"/><attr format="dimension" name="textSize"/><attr format="boolean" name="canLoop"/><attr format="integer" name="initPosition"/><attr format="integer" name="drawItemCount"/></declare-styleable>
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="view_text_size">10sp</dimen>
+    <string name="app_name">pickerview</string>
+    <style name="FadeInPopWin">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="@android:windowEnterAnimation">@anim/pop_win_content_fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/pop_win_content_fade_out</item>
+    </style>
+</resources>

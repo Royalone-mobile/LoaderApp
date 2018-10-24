@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="roundedimageview:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/roundedimageview.aar/b143c6099fcaef66feb10208b59d515a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/roundedimageview.aar/b143c6099fcaef66feb10208b59d515a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

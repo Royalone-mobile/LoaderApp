@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen10"
+    android:layout_marginEnd="@dimen/dimen10">
+
+    <com.sawatruck.loader.view.design.CircularImage
+        android:id="@+id/img_load_type"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ico_truck"
+        android:background="@drawable/drawable_circular_image"
+        app:circular_border_width = "0dp"
+        app:circular_border_color="@color/colorBlue"
+        app:circular_shadow = "true"
+        />
+
+    <com.sawatruck.loader.view.design.CustomTextView
+        android:id="@+id/txt_load_type_name"
+
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+</FrameLayout>

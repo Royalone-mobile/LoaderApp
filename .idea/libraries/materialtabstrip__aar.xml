@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="materialtabstrip:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialtabstrip.aar/5d1df98fe65ba195245c2fe3de34fe95/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialtabstrip.aar/5d1df98fe65ba195245c2fe3de34fe95/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

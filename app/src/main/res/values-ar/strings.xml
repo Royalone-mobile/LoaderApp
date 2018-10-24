@@ -1,0 +1,730 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="facebook_app_id">116520179013900</string>
+    <string name="app_name" >سواترك</string>
+    <string name="google_maps_key">AIzaSyBZd_nLonN2iRdkJH3nBXPjHw0Qdj1-ACM</string>
+    <string name="geo_api_key">AIzaSyBZd_nLonN2iRdkJH3nBXPjHw0Qdj1-ACM</string>
+
+    <!--<string name="google_maps_key">AIzaSyDlhQyM2VpXLsMDOgT3-DDzYDXts8jdb8k</string>-->
+
+    <string name="title_listing_details">قائمة التفاصيل</string>
+    <string name="title_edit_profile">تعديل الملف الشخصي</string>
+    <string name="title_change_password">تغيير كلمة السر</string>
+    <string name="title_setting">الاعدادات</string>
+    <string name="title_search_load">البحث عن حمولات</string>
+    <string name="title_post_loads">اعلن عن حمولتك</string>
+
+    <string name="btn_save_search" >احفظ البحث</string>
+    <string name="dubai">Dubai</string>
+
+    <!--Sidemenu-->
+    <string name="sidemenu_home">الرئيسية</string>
+    <string name="sidemenu_myads">اعلاناتي</string>
+    <string name="sidemenu_mybids">عروضي</string>
+    <string name="sidemenu_mytruck">شاحناتي</string>
+    <string name="sidemenu_mybalance">الرصيد</string>
+    <string name="sidemenu_inbox">الرسائل</string>
+    <string name="sidemenu_myrating">تقييماتي</string>
+    <string name="sidemenu_settings">الاعدادات</string>
+    <string name="sidemenu_logout">الخروج من النظام</string>
+    <string name="sidemenu_todo">مهام في قائمة الانتظار</string>
+
+    <!--Change Password-->
+    <string name="password">كلمة السر الحالية</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="confirm_password" >تأكيد كلمة السر</string>
+    <string name="btn_save" >حفظ</string>
+
+
+    <!--Search Filter-->
+    <string name="btn_applyFilter" >طبق الفلتر</string>
+    <!--Notice-->
+    <string name="password_match_error">كلمتي السر غير متطابقتين</string>
+
+    <!--Charge Balance-->
+    <string name="choose_payment_method" >اختر وسيلة الدفع</string>
+    <string name="paypal">بي بال</string>
+    <string name="credit_card" >بطاقة ائتمانية</string>
+    <string name="card_number" >رقم البطاقة</string>
+    <string name="expire_date">تاريخ الانتهاء</string>
+    <string name="card_holder_name" >اسم حامل البطاقة</string>
+    <string name="hint_enter_balance">ادخل الرصيد</string>
+    <string name="cvv" >CVV</string>
+    <string name="btn_charge" >ادفع</string>
+    <!--Delivery Details-->
+    <string name="truck_type" tools:ignore="UnusedResources">نوع الشاحنة</string>
+    <string name="truck_type_item">نوع الشاحنة:</string>
+    <string name="distance_item">المسافة:</string>
+    <string name="budget_item" >السعر:</string>
+    <string name="available_item" >موجود:</string>
+    <string name ="track_load_item">حمولة الشاحنة:</string>
+    <string name="vehicle_type_item">نوع الشاحنة:</string>
+    <string name="budget_price_item"  tools:ignore="UnusedResources">السعر:</string>
+    <string name="load_details_item">تفاصيل الحمولة:</string>
+    <string name="upload_date_item">تاريخ التحميل:</string>
+    <string name="delivery_date_item">تاريخ التسليم:</string>
+
+
+    <!--Send Messages Screen-->
+    <string name="hint_type_message">اكتب رسالتك هنا</string>
+    <!--Ads Detail-->
+    <string name="message" tools:ignore="UnusedResources">الرسالة</string>
+
+    <!--Post Loads 1 Screen-->
+    <string name="what_are_your_loads">ماهي حمولتك?</string>
+    <string name="pickup">التحميل</string>
+    <string name="delivery" >التسليم</string>
+    <string name="load_description">وصف الحمولة</string>
+    <string name="placeholder_text" tools:ignore="UnusedResources">الرجاء اضافة وصف مختصر لحملولتك مثلا نقل منزل من 3 غرف ، نقل سيراميك او ادوات صحية ...</string>
+    <string name="btn_fastsubmit" >نشر الحمولة  </string>
+    <string name="btn_adddetails"  tools:ignore="UnusedResources">تفاصيل اكثر</string>
+    <!--Post Loads 2 Screen-->
+    <string name="package_name" tools:ignore="UnusedResources">الطرود</string>
+    <string name="quantity">الكمية</string>
+    <string name="vehicle_type">نوع المركبة</string>
+    <string name="vehicle_brand">الشركة المصنعة</string>
+    <string name="model">الموديل</string>
+    <string name="unit_weight">وزن الوحدة</string>
+    <string name="measure_unit">وحدة القياس</string>
+    <string name="feature_of_each_package" tools:ignore="UnusedResources">صفات كل طرد</string>
+
+
+    <!--Post Loads 3 Screen-->
+    <string name="optional" tools:ignore="UnusedResources">(اختياري)</string>
+    <string name="photo_to_share">هل لديك صورة للمشاركة؟</string>
+    <string name="want_choose_truck" tools:ignore="UnusedResources">هل تريد اختيار شاحنة؟</string>
+    <string name="truck_details">تفاصيل الشاحنة</string>
+    <string name="vehicle_class">صنف الشاحنة</string>
+    <string name="vehicle_bodywork">  هيكل الشاحنة يصلح</string>
+    <string name="vehicle_body">هيكل الشاحنة</string>
+    <string name="take_photo">التقط صورة</string>
+    <string name="upload_photo">حمل صورة</string>
+
+    <!--Post Loads 4 Screen-->
+    <string name="further_information" tools:ignore="UnusedResources">معلومات اضافية</string>
+    <string name="form_payment">وسيلة الدفع</string>
+    <string name="enter_currency" tools:ignore="UnusedResources">العملة</string>
+    <string name="invite_driver" tools:ignore="UnusedResources">دعوة سائقين</string>
+    <string name="btn_invited" >تم دعوته</string>
+
+    <!--Listing Details Screen-->
+    <string name="active_bids">عروض</string>
+    <string name="confirmed_bids" >Confirmed Bids</string>
+    <string name="btn_accept" >اقبل</string>
+    <string name="btn_reject" >ارفض</string>
+    <string name="offer">عرض </string>
+
+    <!--My Balance Screen-->
+    <string name="my_balance">المحفظة</string>
+    <string name="your_balance">رصيدك</string>
+    <string name="your_point">نفاط سواترك</string>
+    <string name="promo_code">الرمز التويجي</string>
+    <string name="add_promo_code" >أضف رمز ترويجي</string>
+    <string name="add_payment_method" >أضف وسيلة دفع</string>
+    <string name="charge_balance" >اشحن رصيدك</string>
+    <string name="transaction_history">سجل العمليات</string>
+
+    <!--Arriving screen-->
+    <string name="view_delivery_details" tools:ignore="UnusedResources">عرض تفاصيل التوصيل</string>
+    <string name="btn_call" >اتصل</string>
+    <string name="btn_message" >راسل</string>
+
+    <!--My Bookings Screen-->
+    <string name="my_bookings" tools:ignore="UnusedResources">حجوزاتي</string>
+    <string name="tab_accepted">مقبول</string>
+    <string name="tab_rejected">مرفوض</string>
+    <string name="tab_cancelled">ملغي</string>
+    <string name="budget_price" >Budget Price</string>
+
+    <!--My Loads Screen-->
+
+    <string name="tab_booked">محجوزة</string>
+    <string name="tab_opened">غير محجوزة</string>
+
+    <!--My Ratings Screen-->
+
+    <string name="tab_my_ratings">تقيماتي</string>
+    <string name="tab_ratings">التقييمات</string>
+    <string name="notifications">التنبيهات</string>
+
+    <!--Rating screen-->
+    <string name="your_bill">فاتورتك</string>
+    <string name="how_was_delivery">كيف كانت خدمة التوصيل؟</string>
+    <string name="communication">التواصل</string>
+    <string name="care_of_goods" tools:ignore="UnusedResources">الاهتمام بالبضاعة</string>
+    <string name="punctuality">دقة المواعيد</string>
+    <string name="services_as_described" tools:ignore="UnusedResources">تنفيذ الخدمة كما طلبت</string>
+    <string name="hint_enter_comment">اكتب ملاحظتك</string>
+    <string name="route">مسار</string>
+
+    <!--Search for Truck Screen-->
+    <string name="search_for_truck">البحث عن شاحنة</string>
+    <string name="btn_search" >بحث</string>
+    <string name="distance">البعد</string>
+    <string name="promo_code_applied">تم اضافة الرمز الترويجي</string>
+    <string name="notice_collect_money">الرجاء تحصيل المبلغ من المستلم</string>
+    <!--Settings Screen-->
+    <string name="setting_view_profile">عرض الملف الشخصي</string>
+    <string name="setting_edit_profile">تعديل الملف الشخصي</string>
+    <string name="setting_change_password">تعديل كلمة السر</string>
+    <string name="setting_language">اللغة</string>
+    <string name="setting_notifications">التنبيهات</string>
+    <string name="setting_rate_apps">قيم التطبيق</string>
+
+
+
+    <string name="hint_email">الميل</string>
+    <string name="hint_mobilephone">رقم الموبايل</string>
+    <string name="hint_username">الاسم</string>
+    <string name="hint_phonenumber">رقم الهاتف</string>
+    <string name="hint_landingphone">الهاتف الأرضي ( اختياري) </string>
+    <string name="hint_companyname">(اسم الشركة ( اختياري </string>
+    <string name="hint_bio">كلمة عني</string>
+    <string name="hint_firstname">الاسم الأول</string>
+    <string name="hint_lastname">اسم العائلة</string>
+
+    <string name="language">اللغة</string>
+    <string name="btn_continue" >استمر</string>
+    <string name="notice_inputcode">الرجاء ادخل رمز التحقق المرسل لهاتفك </string>
+    <string name="start_travel">السائق بدأ رحلة التوصيل</string>
+    <string name ="track_load" tools:ignore="UnusedResources">تتبع الرحلة</string>
+    <string name="btn_ok" >موافق</string>
+    <string name="btn_cancel" >الغاء</string>
+    <string name="load_success" tools:ignore="UnusedResources">
+    <![CDATA[ <p>حمولتك تم توصيلها <br><br>
+                        بنجاح
+    ]]>
+  </string>
+    <string name="english">English</string>
+    <string name="chinese" tools:ignore="UnusedResources">Chinese</string>
+    <string name="arabic">Arabic</string>
+
+    <string name="book" >احجز</string>
+    <string name="recipient_information" tools:ignore="UnusedResources">معلومات المستلم</string>
+    <string name="sendbid">ارسل عرضك</string>
+    <string name="enter_different_price">ادخل سعر مختلف</string>
+    <string name="enter_price" tools:ignore="UnusedResources">أدخل السعر</string>
+    <string name="currency">AED</string>
+    <string name="cancel_delivery">الغاء التوصيل</string>
+    <string name="radio_unable_find_delivery">لم استطع الوصول للحمولة</string>
+    <string name="radio_oversized">الحمولة اكثر من المسموح به</string>
+    <string name="radio_excessive_waittime"> انتظرت وقت طويل و لم يصل العميل</string>
+    <string name="radio_other">أخرى</string>
+    <string name="enter_savename">حفظ البحث بإسم</string>
+
+    <string name="radio_camera">الكاميرا</string>
+    <string name="radio_gallery">الأستوديو</string>
+    <string name="camera_or_gallery" >الكاميرا/الأستوديو</string>
+    <string name="notify">تنبيه</string>
+    <string name="btn_book"  tools:ignore="UnusedResources">احجز</string>
+    <string name="btn_showmap" >اعرض الخريطة</string>
+    <string name="btn_submit" >قدم الطلب</string>
+    <string name="btn_next" >التالي</string>
+    <!--Guest-->
+    <string name="notice_guest">
+    <![CDATA[ <p> مرحبا<br><br>
+       يمكن مشاهدت هذه الخيارات <br> اذا سجلت دخول <br>
+       حتى تستطيع الاستفاده من جميع الخدمات <br> الرجاء تسجيل الدخول او  <br> انشاء حساب.
+    ]]>
+  </string>
+
+    <!--Profile-->
+    <string name="workhistory">سجل العمل</string>
+    <string name="verification">التحقق</string>
+    <string name="menu_terms">الشروط</string>
+    <string name="insurance_cover">التأمين يغطي</string>
+    <string name="activate" >نشط</string>
+    <string name="account_create" >تاريخ انشاء الحساب</string>
+    <string name="last_login">أخر دخول</string>
+    <string name="verified">موثق</string>
+    <string name="not_verified">غير موفق</string>
+    <string name="job">عملية</string>
+    <string name="jobs">عمليات</string>
+    <!--SignIn/SignUp-->
+    <string name="btn_login" >تسجيل دخول</string>
+    <string name="btn_register" >انشاء الحساب</string>
+    <string name="btn_signin" >تسجيل الدخول</string>
+    <string name="hint_password">كلمة السر</string>
+    <string name="forgot_password">فقدت كلمة السر</string>
+    <string name="or">أو</string>
+    <string name="btn_signin_facebook" >تسجيل الدخول عن طريق حساب فيس بوك</string>
+    <string name="btn_signin_google" >تسجيل الدخول عن طريق الجي ميل</string>
+    <string name="not_yet_account">ليس لدي حساب </string>
+    <string name="signup">
+      <u>إنشاء حساب</u>
+    </string>
+    <string name="map_view">عرض على الخريطة</string>
+
+
+    <string name="radio_broker">وسيط</string>
+    <string name="radio_company">شركة</string>
+    <string name="radio_have_own_track">سائق يملك شاحنة</string>
+    <string name="btn_signup" >انشاء حساب</string>
+    <string name="btn_signup_facebook" >انشاء حساب عن طريق حساب فيس بوك</string>
+    <string name="btn_signup_google" >انشاء حساب عن طريق الجي ميل</string>
+    <string name="terms">
+      انشائك حساب لدى سواترك يعني انك توافق على <b>شروط استخدام سواترك</b>
+    </string>
+
+
+    <string name="sender">مرسل</string>
+    <string name="recipient">مستلم</string>
+
+
+    <string name="delivery_confirmation">توثيق التوصيل</string>
+    <string name="delivery_confirmation_code">الرجاء ادخال الرمز المعطى لك من المستلم او المرسل.</string>
+
+    <string name="btn_invite" tools:ignore="UnusedResources">دعوة</string>
+    <string name="sneak_peek">خد فكرة</string>
+    <string name="delivery_item">غرض التوصيل </string>
+    <string name="delivery_description">وصف الحمولة</string>
+    <string name="btn_navigate" >عرض</string>
+    <string name="btn_delivery_details" >تفاصيل التوصيل</string>
+    <string name="slide_to_begin_travel">مرر لبدء الرحلة➞ </string>
+
+    <string name="search_for_city" tools:ignore="UnusedResources">ابحث عن مدينة</string>
+    <string name="search_for_location">ابحث عن موقع</string>
+    <string name="class_item">تصنيف</string>
+    <string name="body_item" >هيكل</string>
+    <string name="company_item">الشركة المصنعة:</string>
+    <string name="year_item">العام:</string>
+    <string name="btn_add_truck" >أضف شاحنة</string>
+    <string name="menu_color">اللون</string>
+    <string name="menu_company">الشركة المصنعة</string>
+    <string name="menu_pallet_number">رقم اللوحة</string>
+    <string name="menu_production_year">سنة التصنيع</string>
+    <string name="menu_owner_name">اسم المالك</string>
+    <string name="menu_owner_id">بلد المالك</string>
+    <string name="menu_owner_phone">هاتف المالك</string>
+    <string name="menu_details">تفاصيل</string>
+
+    <string name="menu_model">موديل</string>
+    <string name="menu_insurance">التأمين</string>
+    <string name="my_bids">عروضي</string>
+    <string name="btn_cancel_delivery" >الغاء التوصيل</string>
+    <string name="btn_pickup_load" >تحميل الحمولة</string>
+    <string name="btn_arrived" >وصلت موقع التحميل</string>
+    <string name="load_date">تاريخ التحميل</string>
+    <string name="unload_date">تاريخ التسليم</string>
+    <string name="load_location">موقع التحميل </string>
+    <string name="unload_location">موقع التسليم</string>
+    <string name="saved_search">بحث سابق</string>
+    <string name="select_your_truck">اختر شاحنتك</string>
+    <string name="search_for_loads">ابحث عن حمولة</string>
+    <string name="tab_mapview">عرض على الخريطة</string>
+    <string name="tab_listview">عرض بشكل قائمة</string>
+    <string name="select_location_from_map">اختر الموفع من الخريطة</string>
+    <string name="saved_locations" tools:ignore="UnusedResources">موفع محفوظ سابفا</string>
+    <string name="recent_locations">مواقع سابقة</string>
+    <string name="nearby_locations" tools:ignore="UnusedResources">موافع قريبة</string>
+    <string name="pickup_date">تاريخ التحميل</string>
+    <string name="pickup_location">موفع التحميل</string>
+    <string name="delivery_date">تاريخ التسليم</string>
+    <string name="btn_send_your_bids" >ارسل عرض سعر</string>
+    <string name="btn_confirm" >أكد</string>
+
+    <string name="btn_start" >ابدأ</string>
+    <string name="bid_details" >تفاصيل العرض</string>
+    <string name="fare">سعر الخدمة</string>
+    <string name="btn_collect_payment" >تحصيل المبلغ</string>
+    <string name="travel_summary">ملخص الرحلة</string>
+    <string name="payment_type_item">وسلة الدفع:</string>
+    <string name="details">التفاصيل</string>
+    <string name="promode_applied" tools:ignore="UnusedResources">تم استخدام الرمز الترويجي :</string>
+    <string name="collect_money">الرجاء تحصيل المبلغ من المستلم</string>
+    <string name="btn_delete"  tools:ignore="UnusedResources">حذف</string>
+    <string name="payment_type">وسيلة الدفع</string>
+    <string name="card">بطافة</string>
+    <string name="delivery_location">موفع التسليم</string>
+    <string name="chk_negotiable">قابل للتفاوض</string>
+    <string name="ad_availability" >الإعلان صالح حتى</string>
+    <string name="hours_24">24 ساعة</string>
+    <string name="days_3">3 ايام</string>
+    <string name="days_7">7 أيام</string>
+    <string name="my_ads">اعلاناتي</string>
+
+
+    <string name="slide_to_end_travel_and_delivery">مرر الشاشة لانهاء الرحلة و التوصيل➞</string>
+    <string name="notice_confirm_arrival">
+    <![CDATA[ <p> هل أنت متأكد انك وصلت <br>
+        الى موفع التحميل? اذا ضغطت انهاء<br>
+         التوجه للمسار <br>
+         سوف ينتهي.
+    ]]>
+  </string>
+
+
+    <string-array name="DialingCountryCode" >
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+    <string name="truck_token">bearer 1u1-2Yv7pHLnIe46zIFzsktoKayl5h61k56AOZHltpckhCOaXVDpY_Y_BGJvWBsp9sjFIEGnveTmslAAaj_V5mK8AdMyb283MnZIu3rin5nc94xbQqNuNz0XsT71MCZUhZCIqIVNPB4lKgUT4Q70xt5mQa_UAwDIzWwrzuzVgP56Q65Hd9pmr1kKcUrAJbGJ_nJfnr5S5VNSFNT96355WRheJ5So9wiAyzo9UmdVcafJlFeb0eW4beV5rxvRY5hZrTm4SQzvCncFAGTjwjtNbvV0ACs0uRXNpCYwLd9Tsb3yHzGyYs5yhz_sJWwsDYL0Wkukmie7P1Oyc7lc8ApGEYz9jbuvZLWCjk5OnIUGpzIwETcPp0uvRM41M1DnBPhZgMKNg0N0JBQv059TU6OCjj7sz_So9q1JftoYpDmJRHNvI1EYoZrsGuxnSh1TcO_5DmmcZ4JlL2ayPYLMjc90KiDB2Gd5TDDwT01brFDj_qmzDuOfaSO185ma4xsvRshDgl8i86q6Mv0oruLNrvlZjM6Tp6eVaofPXJCLM7bjEqatMm9hbZs-Q-efCCzGnosXr3lkLzmxbcJzPUeCZq9dUhivmu1_ak4fvM9jupQGrrNFrtsThCUWpBjUj6sElok9jrvF_J7kBBIPT56_yXAXh-Otdy-ce1nYDJkm73Df3mCa_XtIqcaeJJqRv7Cx44HteSjVu9YBUMAF4oKGfRDr6g</string>
+    <string name="truck_token1">bearer n8UnzeRuqQsST1AR_oBF9iDPE6WLIM34M6kX3dQplRKvlzlIg7tmf7M7UlT4vJ5oCtKFVUPst7DnsyaV1Nzo7-9FcXg0beQ9dHdNtCPXyR3mn_6yceks0ouTm0iJkmx7VCOyIy_7UPJyk9zUrB25YZ1SyUjJyxun66LDNGEmgs6Wc7QSzncyfrqvv0I1RUM2maQiuCfYJpArO1xLLLapwdDSEjho_M2ZKLOGuWsXiFsf8yNcUmtqUQBMOAUOMApFPPy0iR1v2Xz1lxeFYyZoHYItSpG5IplzYKDFv104BhWi_6-UqthtxhEX3lItpV6o4hkwuJsGekVijmdIxmgtTjqWozuJMcZ3plLyWB2JjqHISXwVQZUn0lfkg7a1GS9WbV5u6sfa21JjoGNJEA6DvWie01vLdXiVUnaVQD-iBEdIbOpEBlE3Hu6vcog1Ndz45qwHTijSRePbL5N8Zvl6XItH5j8234PM4T0ZrRn8Amq2cYICfzhIIFseWPDv7Yr8BfjPzVgPGSGB2YY2wuCO04BpVzmndtAKrIMFzZ9NV7dDn-HzHU3ZLxkqhMf2sgDvuG5F__OpfJJxrLzmngDm_z9JiSdMdv67FIeYixvnbXdxk4W7pTtBbn706BxK4R2P7ZKxmgO8F38B9-p3Zz7OIW7jgvJTtsbBRlrNXkogUgk3pCHVLRT0TrbGYhZtsKKD</string>
+    <string name="truck_token2">bearer sotKxDoWQYjqbUpJ9zoCdlPfcmU5bUfjheCj-T7mMvn3AfQxdhOhiwB6KyCgam1aU6kxhhz-bM4VGT04zrtE85izbkefVVwxHpZfYl2NXDUR9nBSewcYvKWe0jNqGEj3JYKpe5HOBTBbHHTlDIEuzr-FIDkzsSy_P9sTzUUzmNrOeRYcZx4nQoUVnPTcAexlBNtIdVIkIM60g4p9Tnk4IBsR4uSyMxXuFrAjA6GTg57hYsJlfiCb0bt-cW-PfP2UMTQ4snGfI92cjVz_DcI2y3i97j_aRLDeye4W872OszjhP-iHtbsOAlPU1PCIS5R_jNLEq7c849UxNVv_5MjGuQyEIA1dW-w-yyj4dWpL3YVKBE5JPioP2VkffrsQOKD_Mw9POGjqo1UBycsbDEP8EjIUr8PQFLTCE2JpzCxkBCma7SFPrksgdlzpsfpPIe1SDIDYX0uNUQriCLBuwnFNMIVbJ6wtxyo0Dx-y11gXG6N10Ncq6OO18BgBkswVyu6Oomzb7T24mbwI5_C9LO0OdjaNMvc-pbJXtpJ9LIL3AAydv1fQbBnLF5WmEB1CIkHa_TEnX9WzKOzpIfd_qFTSnAp8h-zmggx6cUWGN-kPbmgPdVVHJTQnmPfGdFhlK9AHi6vmL1c_RCiOte7sh8P3Bon3WWy0qM5U-f-GktcLBOw</string>
+    <string name="truck_token3">bearer mvxYy9VIJl-P-i29Ow_NdEgNqiqKLsE1gmO8u_Bmd7oUtBUwECrxOstuvbq8M9rAv3U7y9eOxAzpEZRj9P9Rqz__BXMZ80MkEoTWukWmuWhLTNQrD0QQHDKn6lSdDt7DCIIKMX8ojtslLZX2OdXncxAcTUY8bZQqvGbBf7e7lDHtRgHnap3et6CqVdghyaYWpH_uYxn7b0JaOUMnhgIcE6_SVahlrrPxV1_7kWav2Rbi8AKxDlIN3mbRLqui5R62RSZ8w4puV-5jsmiHKJu7q9WATnL39k2BsKgpWG5EFsPl8DpK2tf9eMz4EaIdHTqU_sbOUb8rN1ypH23O0B9VbL5gOLMkoXmqoMzbDoSXAvijQnJ5whyMAa3W3YqhH081IVonxn6w95yltCIw4BmRpsWzHbJOZT1WCUCSksLKLUTgvUBdZ5Lgvb_0HSk2gLwsTCA1z25tIGK2Yjjx3Kfi-6ybgmlQnt61sPNRSXI7NU9KfUraYjft04sXFkz82PRCLYxqhzq3bKdKEBcgPaLYgkGSbrAdgshCsnea8e6b_nGP0QXnH-UhaXovZGCGZ-ruKuEaplPEwP89RSgPc5wSYKRgIBa9m-xqj7136pVNClVQ8uuDaBy4I0hxKQ89L8Tsyw_wGhcW5XCGnw0BI1yGP1x_xU4wNuAVke4z8mGHfcId3IHInzqDhBWjflS-2w9_u3BuGR0JdDcE13C1JKBef04kVkvC_4bm14mJtmj0TTk</string>
+
+    <string name="error_enter_balance">الرجاء ادخال الرصيد</string>
+    <string name="error_enter_comment">الرجاء ادخال ملاحظتك</string>
+    <string name="error_enter_email">الرجاء ادخال الميل</string>
+    <string name="error_enter_password">الرجاء ادخال كلمة السر</string>
+    <string name="error_enter_phonenumber">الرجاء ادخال رقم الهاتف</string>
+    <string name="error_enter_firstname">الرجاء ادخال الاسم الأول</string>
+    <string name="error_enter_lastname">الرجاء ادخال اسم العائلة</string>
+
+    <string name="error_enter_cardnumber">الرجاء ادخال رقم البطافة</string>
+    <string name="error_enter_cvv">الرجاء ادخال رمز CVV</string>
+    <string name="error_enter_expiredate">الرجاء ادخال تاريخ انتهاء البطاقة</string>
+    <string name="error_enter_cardholder_name" tools:ignore="UnusedResources">الرجاء ادخال اسم حامل البطاقة</string>
+
+    <string name="success_charge_balance">تمت عملية شحن الرصيد بنجاح</string>
+    <string name="failure_charge_balance" tools:ignore="UnusedResources">فشلت عملية شحن الرصيد</string>
+    <string name="error_failed_edit_profile">فشلت عملية تعديل البروفايل</string>
+    <string name="error_enter_bio">الرجاء ادخال وصف عن نفسك</string>
+    <string name="error_enter_delivery_date">الرجاء ادخال تاريخ التوصيل</string>
+    <string name="error_enter_pickup_date">الرجاء ادخال تاريخ التحميل</string>
+    <string name="error_enter_budget_price">الرجاء ادخال سعر الخدمة</string>
+    <string name="error_enter_pickup_location">الرجاء ادخال موقع التحميل</string>
+    <string name="error_enter_delivery_location">الرجاء ادخال موقع التسليم</string>
+
+    <string name="hint_company_email">ايميل الشركة</string>
+    <string name="hint_company_name">اسم الشركة</string>
+    <string name="enter_company_email">الرجاء ادخال ايميل الشركة</string>
+    <string name="enter_company_name">الرجاء ادخال اسم الشركة</string>
+    <string name="search_for_load">ابحث عن حمولة</string>
+
+
+    <string name="locale_english">en</string>
+    <string name="locale_arabic">ar</string>
+    <string name="error_enter_save_name">الرجاء ادخال اسم لحفظ البحث به</string>
+    <string name="my_bid">عروضي</string>
+    <string name="change_language_sucess">Locale Changed</string>
+    <string name="cover_letter">رسالة مرفقة</string>
+    <string name="error_enter_cover_letter">الرجاء ادخال رسالة مرفقة</string>
+    <string name="success_verify_phone">نجاح التحقق من الهاتف</string>
+    <string name="failure_verify_phone">الرجاء ادخال الرمز المرسل</string>
+    <string name="title_load_details">تفاصيل الحمولة</string>
+    <string name="title_search_filter">فلتر</string>
+    <string name="title_bid_details">تفاصيل العرض</string>
+    <string name="title_pickup_load">تحميل الحمولة</string>
+    <string name="title_delivery_details">تفاصيل التوصيل</string>
+    <string name="title_travel">الرحلة</string>
+    <string name="title_your_travel">رحلتك</string>
+    <string name="title_rating">تقييم</string>
+    <string name="title_charge_balance">اشحن رصيدك</string>
+    <string name="title_map">خريطة</string>
+    <string name="title_notifications">تنبيهات</string>
+    <string name="title_search_location">موافع</string>
+    <string name="title_send_offer">أرسل عرض</string>
+    <string name="title_signin">تسجيل دخول</string>
+    <string name="title_signup">انشاء حساب</string>
+    <string name="title_truck">شاحنة</string>
+    <string name="title_profile">ملف شخصي</string>
+    <string name="title_verify_account">توثيق الحساب</string>
+    <string name="title_add_truck">اضافة شاحنة</string>
+
+    <string name="title_ad_details">تفاصيل الاعلان</string>
+    <string name="hint_birthday">تاريخ الميلاد</string>
+    <string name="hint_gender">الجنس</string>
+    <string name="error_enter_birthday">الرجاء ادخال تاريخ الميلاد</string>
+    <string name="enter_promocode">الرجاء ادخال الرمز الترويجي</string>
+    <string name="title_transaction_history">سجل العمليات المالية</string>
+    <string name="tab_all">الكل</string>
+    <string name="tab_money_in">تحويلات مالية لحسابك</string>
+    <string name="tab_money_out">تحويلات من حسابك</string>
+    <string name="title_add_payment_method">أضف وسيلة دفع</string>
+    <string name="btn_edit">تعديل</string>
+    <string name="title_edit_ad">عدل اعلانك</string>
+    <string name="error_invalid_email">الرجاء ادخال ايميل صحيح</string>
+    <string name="rate_app">قيم تطبيق سواترك</string>
+    <string name="error_get_messages">فشلت عملية جلب سجل الرسائل</string>
+
+    <string name="xlistview_header_hint_normal">اسحب للأسفل للتحديث</string>
+    <string name="xlistview_header_hint_ready">فشل في تحميل البيانات</string>
+    <string name="xlistview_header_hint_loading">تحميل...</string>
+    <string name="xlistview_header_last_time">أخر تحديث：</string>
+    <string name="xlistview_footer_hint_normal">شاهد أكثر</string>
+    <string name="xlistview_footer_hint_ready">شاهد أقل</string>
+    <string name="xlistview_header_hint_success">نجحت عملية التحديث</string>
+    <string name="xlistview_header_hint_failt">فشلت عملية التحديث</string>
+    <string name="not_updated_yet">لم يتم التحديث بعد</string>
+    <string name="updated_at">أخر تحديث منذ% 1</string>
+    <string name="updated_just_now">تم التحديث للتو</string>
+    <string name="time_error">خطأ في الوقت</string>
+    <string name="error_send_message">فشل ارسال رسالة</string>
+    <string name="yesturday">أمس</string>
+    <string name="today">اليوم</string>
+    <string name="enter_cardnumber">أدخل رقم البطاقة</string>
+    <string name="enter_expire_date">أدخل تارخ الانتهاء</string>
+    <string name="enter_cvv">Enter CVV</string>
+    <string name="error_enter_correct_expire_month">أدخل شهر انتهاء صحيح</string>
+
+    <string name="sidemenu_my_loads">حمولاتي</string>
+    <string name="sidemenu_my_bookings">حجوزاتي</string>
+    <string name="btn_post_loads">أعلن عن حمولتك</string>
+    <string name="AND">و</string>
+    <string name="hint_load_description">أدخل وصف الحمولة</string>
+    <string name="error_enter_load_description">الرجاء ادخال وصف الحمولة</string>
+    <string name="error_enter_recipient_name">الرجاء ادخال اسم المستلم</string>
+    <string name="error_enter_recipient_phone">الرجاء ادخال رقم هاتف المستلم مع المفتاح</string>
+    <string name="hint_pickup_date">تاريخ التحميل</string>
+    <string name="hint_pickup_location">موفع التحميل</string>
+    <string name="hint_delivery_date">تاريخ التسليم</string>
+    <string name="hint_delivery_location">موفع التسليم</string>
+    <string name="best_price" >أفضل سعر</string>
+
+    <string name="network_unavailable">لا يوجد شبكة</string>
+    <string name="error_add_truck_photo">الرجاء رفع صورة الشاحنة</string>
+    <string name="error_file_not_exist">الملف غير موجود</string>
+    <string name="error_enter_pallet_number">الرجاء ادخال رقم اللوحة</string>
+    <string name="error_enter_production_year">الرجاء ادخال سنة التصنيع</string>
+    <string name="error_enter_model">الرجاء ادخال الموديل</string>
+    <string name="error_enter_owner_name">الرجاء ادخال اسم صاحب السيارة</string>
+    <string name="enter_cardholdername">الرجاء ادخال اسم صاحب البطافة</string>
+    <string name="your_offer">عرض السعرالخاص بك</string>
+    <string name="arriving">وصل</string>
+    <string name="no_bids">لايوجد عروض</string>
+    <string name="title_invite_drivers">دعوة سائقين</string>
+    <string name="country">البلد: </string>
+    <string name="price">السعر</string>
+    <string name="error_select_truck_type">الرجاء اختيار نوع الشاحنة</string>
+    <string name="error_select_truck_body_type">الرجاء اختيار نوع هيكل الشاحنة</string>
+    <string name="error_select_truck_class">الرجاء اختيار تصنيف الشاحنة</string>
+    <string name="error_enter_price">الرجاء ادخال السعر</string>
+    <string name="error_select_currency">الرجاء اختيار الدولة</string>
+    <string name="error_select_payment_method">الرجاء اختيار وسيلة الدفع</string>
+    <string name="error_add_profile_photo">الرجاء رفع صورة الملف الشخصي</string>
+    <string name="cash">نقداً</string>
+    <string name="setting_verify_email">وثق الايميل</string>
+    <string name="error_delivery_date_ahead">تاريخ التسليم يجب ان يكون بعد تاريخ التحميل</string>
+    <string name="error_date_ahead_today">الرجاء ادخال تاريخ بعد اليوم</string>
+    <string name="driver_location">موقع التسليم</string>
+    <string name="error_accept_terms">يجب ان تقبل شروط الاستخدام!</string>
+    <string name="kilometer"> km</string>
+    <string name="tab_active">نشط</string>
+    <string name="error_loading_booking_details">تحميل تفاصيل الحجز</string>
+    <string name="title_active_boooking">الحجوزات النشطة</string>
+    <string name="title_cancel_boooking">الحجوزات الملغية</string>
+    <string name="error_press_again">اضغط مرة اخرى للخروج</string>
+    <string name="error_load_null">بيانات الحمولة غير موجوده</string>
+    <string name="share_travel">شارك الرحلة</string>
+    <string name="search_for_ad">البحث عن  شاحنة</string>
+    <string name="bulk_type">حمولة من نوع كتلة</string>
+    <string name="volume">حجم</string>
+    <string name="advertisement_location">موقع الاعلان</string>
+    <string name="scroll_to_select_load_type">مرر لاختيار نوع الحمولة</string>
+    <string name="btn_unaccept">تراجع عن قبول العرض</string>
+    <string name="locale_spanish">es</string>
+    <string name="btn_splash_arabic">عربي</string>
+    <string name="btn_splash_english">English</string>
+    <string name="btn_splash_spanish">Español</string>
+    <string name="choose_one_reason">الرجاء اختيار اكتر من سبب</string>
+    <string name="pickup_time">وقت التحميل</string>
+
+    <string name="no_driver_phone">No driver phone</string>
+    <string name="booked_offer">Price of Booked Offer</string>
+    <string name="tab_completed">Completed</string>
+</resources>

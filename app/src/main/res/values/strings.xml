@@ -1,0 +1,713 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="facebook_app_id">116520179013900</string>
+    <string name="app_name" >SawaTruck Loader</string>
+    <string name="google_maps_key">AIzaSyBZd_nLonN2iRdkJH3nBXPjHw0Qdj1-ACM</string>
+    <string name="geo_api_key">AIzaSyBZd_nLonN2iRdkJH3nBXPjHw0Qdj1-ACM</string>
+
+    <!--<string name="google_maps_key">AIzaSyDlhQyM2VpXLsMDOgT3-DDzYDXts8jdb8k</string>-->
+
+    <string name="title_listing_details">Listing Details</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="title_change_password">Password Change</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_search_load">Search for Loads</string>
+    <string name="title_post_loads">Post your Loads</string>
+    <string name="error_enter_bio">الرجاء ادخال وصف عن نفسك</string>
+    <string name="btn_save_search" >Save Search</string>
+    <string name="dubai">Dubai</string>
+
+    <!--Sidemenu-->
+    <string name="sidemenu_home">Home</string>
+    <string name="sidemenu_myads">My Ads</string>
+    <string name="sidemenu_mybids">My Bids</string>
+    <string name="sidemenu_mytruck">My Truck</string>
+    <string name="sidemenu_mybalance">My Balance</string>
+    <string name="sidemenu_inbox">Inbox</string>
+    <string name="sidemenu_myrating">My Rating</string>
+    <string name="sidemenu_settings">Settings</string>
+    <string name="sidemenu_logout">Log Out</string>
+
+
+    <!--Change Password-->
+    <string name="password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password" >Confirm Password</string>
+    <string name="btn_save" >SAVE</string>
+
+
+    <!--Search Filter-->
+    <string name="btn_applyFilter" >Apply</string>
+    <!--Notice-->
+    <string name="password_match_error">Password does not match</string>
+
+    <!--Charge Balance-->
+    <string name="choose_payment_method" >Choose Payment Method</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_card" >Credit/Debit Card</string>
+    <string name="card_number" >Card Number</string>
+    <string name="expire_date">Expiration Date</string>
+    <string name="card_holder_name" >Card Holder Name</string>
+    <string name="hint_enter_balance">Enter Balance</string>
+    <string name="cvv" >CVV</string>
+    <string name="btn_charge" >Charge</string>
+    <!--Delivery Details-->
+    <string name="truck_type" tools:ignore="UnusedResources">Truck Type</string>
+    <string name="truck_type_item">Truck Type:</string>
+    <string name="distance_item">Distance:</string>
+    <string name="budget_item" >Budget:</string>
+    <string name="available_item" >Available:</string>
+    <string name ="track_load_item">Truck load:</string>
+    <string name="vehicle_type_item">Vehicle Type:</string>
+    <string name="budget_price_item"  tools:ignore="UnusedResources">Budget Price:</string>
+    <string name="load_details_item">Load Details:</string>
+    <string name="upload_date_item">Upload Date:</string>
+    <string name="delivery_date_item">Delivery Date:</string>
+
+
+    <!--Send Messages Screen-->
+    <string name="hint_type_message">Type a message here</string>
+    <!--Ads Detail-->
+    <string name="message" tools:ignore="UnusedResources">Message</string>
+
+    <!--Post Loads 1 Screen-->
+    <string name="what_are_your_loads">What are your loads?</string>
+    <string name="pickup">Pickup</string>
+    <string name="delivery" >Delivery</string>
+    <string name="load_description">Load Description</string>
+    <string name="placeholder_text" tools:ignore="UnusedResources">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei eiusmod tem por incididunt ut labore et dolore.</string>
+    <string name="btn_fastsubmit" >Fast Submit</string>
+    <string name="btn_adddetails"  tools:ignore="UnusedResources">Add details</string>
+    <!--Post Loads 2 Screen-->
+    <string name="package_name" tools:ignore="UnusedResources">Package</string>
+    <string name="quantity">Quantity</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="vehicle_brand">Vehicle Brand</string>
+    <string name="model">Model</string>
+    <string name="unit_weight">Unit Weight</string>
+    <string name="measure_unit">Measure Unit</string>
+    <string name="feature_of_each_package" tools:ignore="UnusedResources">Feature of each package</string>
+
+
+    <!--Post Loads 3 Screen-->
+    <string name="optional" tools:ignore="UnusedResources">(Optional)</string>
+    <string name="photo_to_share">Do you have photo to share?</string>
+    <string name="want_choose_truck" tools:ignore="UnusedResources">Do you want to choose Truck?</string>
+    <string name="truck_details">Truck Details</string>
+    <string name="vehicle_class">Vehicle Class</string>
+    <string name="vehicle_bodywork">Vehicle Bodywork</string>
+    <string name="vehicle_body">Vehicle Body</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="upload_photo">Upload a Photo</string>
+
+    <!--Post Loads 4 Screen-->
+    <string name="further_information" tools:ignore="UnusedResources">Further Information</string>
+    <string name="form_payment">Form Payment</string>
+    <string name="enter_currency" tools:ignore="UnusedResources">Currency</string>
+    <string name="invite_driver" tools:ignore="UnusedResources">Invite Driver</string>
+    <string name="btn_invited" >Invited</string>
+
+    <!--Listing Details Screen-->
+    <string name="active_bids" >Active Bids</string>
+    <string name="confirmed_bids" >Confirmed Bids</string>
+    <string name="btn_accept" >Accept</string>
+    <string name="btn_reject" >Reject</string>
+    <string name="offer">Offer</string>
+
+    <!--My Balance Screen-->
+    <string name="my_balance">My Balance</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="your_point">Your Point</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="add_promo_code" >Add Promo Code</string>
+    <string name="add_payment_method" >Add Payment Method</string>
+    <string name="charge_balance" >Charge your balance</string>
+    <string name="transaction_history">Transaction History</string>
+
+    <!--Arriving screen-->
+    <string name="view_delivery_details" tools:ignore="UnusedResources">View Delivery Details</string>
+    <string name="btn_call" >Call</string>
+    <string name="btn_message" >Message</string>
+
+    <!--My Bookings Screen-->
+    <string name="my_bookings" tools:ignore="UnusedResources">My Bookings</string>
+    <string name="tab_accepted">Accepted</string>
+    <string name="tab_rejected">Rejected</string>
+    <string name="tab_cancelled">Canceled</string>
+    <string name="budget_price" >Budget Price</string>
+
+    <!--My Loads Screen-->
+
+    <string name="tab_booked">Booked</string>
+    <string name="tab_opened">Opened</string>
+
+    <!--My Ratings Screen-->
+
+    <string name="tab_my_ratings">My Ratings</string>
+    <string name="tab_ratings">Ratings</string>
+    <string name="notifications">Notifications</string>
+
+    <!--Rating screen-->
+    <string name="your_bill">Your Bill</string>
+    <string name="how_was_delivery">How was the delivery?</string>
+    <string name="communication" >Communication</string>
+    <string name="care_of_goods" tools:ignore="UnusedResources" >Care of goods</string>
+    <string name="punctuality">Punctuality</string>
+    <string name="services_as_described" tools:ignore="UnusedResources">Services as described</string>
+    <string name="hint_enter_comment">Enter Comment</string>
+    <string name="route">Route</string>
+
+    <!--Search for Truck Screen-->
+    <string name="search_for_truck">Search for Truck</string>
+    <string name="btn_search" >Search</string>
+    <string name="distance">Distance</string>
+    <string name="promo_code_applied">Promo code discount applied:</string>
+    <string name="notice_collect_money">Please collect money from recipient</string>
+    <!--Settings Screen-->
+    <string name="setting_view_profile">View Profile</string>
+    <string name="setting_edit_profile">Edit Profile</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_notifications">Notifications</string>
+    <string name="setting_rate_apps">Rate the apps</string>
+
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_mobilephone">Mobile Phone</string>
+    <string name="hint_username">Name</string>
+    <string name="hint_phonenumber">Phone Number</string>
+    <string name="hint_landingphone">Landing Phone(Optional)</string>
+    <string name="hint_companyname">Company Name(Optional)</string>
+    <string name="hint_bio">Bio(Optional)</string>
+    <string name="hint_firstname">First name</string>
+    <string name="hint_lastname">Last name</string>
+
+    <string name="language">Language</string>
+    <string name="btn_continue" >Continue</string>
+    <string name="notice_inputcode">Please enter code sent on your phone</string>
+    <string name="start_travel">Driver start travel to delivery</string>
+    <string name ="track_load" tools:ignore="UnusedResources">Truck load</string>
+    <string name="btn_ok" >Ok</string>
+    <string name="btn_cancel" >Cancel</string>
+    <string name="load_success" tools:ignore="UnusedResources"></string>
+    <string name="english">English</string>
+    <string name="chinese" tools:ignore="UnusedResources" >Chinese</string>
+    <string name="arabic" >Arabic</string>
+
+    <string name="book" >Book</string>
+    <string name="recipient_information" tools:ignore="UnusedResources">Recipient Information</string>
+    <string name="sendbid">Send Your Bid</string>
+    <string name="enter_different_price">Enter different price(optional)</string>
+    <string name="enter_price" tools:ignore="UnusedResources">Enter the price</string>
+    <string name="currency" >AED</string>
+    <string name="cancel_delivery" >Cancel delivery</string>
+    <string name="radio_unable_find_delivery">Unable to find Delivery</string>
+    <string name="radio_oversized">Oversized item</string>
+    <string name="radio_excessive_waittime">Excessive Wait time</string>
+    <string name="radio_other">Other</string>
+    <string name="enter_savename">Enter the save name</string>
+
+    <string name="radio_camera">Camera</string>
+    <string name="radio_gallery">Gallery</string>
+    <string name="camera_or_gallery" >Camera/Gallery</string>
+    <string name="notify">Notify</string>
+    <string name="btn_book"  tools:ignore="UnusedResources">Book</string>
+    <string name="btn_showmap" >Show Map</string>
+    <string name="btn_submit" >Submit</string>
+    <string name="btn_next" >Next</string>
+    <!--Guest-->
+    <string name="notice_guest"> <![CDATA[ <p> Hello<br><br>
+        You can only see these <br> option if you are logged in, so <br>
+        in order to get the most of this <br> app please login or create an <br> account.
+    ]]></string>
+
+    <!--Profile-->
+    <string name="workhistory">Work History</string>
+    <string name="verification">Verification</string>
+    <string name="menu_terms">Terms</string>
+    <string name="insurance_cover">Insurance Cover</string>
+    <string name="activate" >Activate</string>
+    <string name="account_create" >Account Create</string>
+    <string name="last_login">Last Login</string>
+    <string name="verified">Verified</string>
+    <string name="not_verified">Not Verified</string>
+    <string name="job">job</string>
+    <string name="jobs">jobs</string>
+    <!--SignIn/SignUp-->
+    <string name="btn_login" >Log In</string>
+    <string name="btn_register" >Create Account</string>
+    <string name="btn_signin" >Sign In</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="or">OR</string>
+    <string name="btn_signin_facebook" >Signin with facebook</string>
+    <string name="btn_signin_google" >Signin with google</string>
+    <string name="not_yet_account">I haven\'t account yet?</string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="map_view">Map View</string>
+
+    <string name="radio_broker">Broker</string>
+    <string name="radio_company">Company</string>
+    <string name="radio_have_own_track">Have Own Track</string>
+    <string name="btn_signup" >Signup</string>
+    <string name="btn_signup_facebook" >Signup with Facebook</string>
+    <string name="btn_signup_google" >Signup with google</string>
+    <string name="terms">By Signing up with SawaTruck you agree to <b>terms and conditions</b></string>
+
+
+    <string name="sender">Sender</string>
+    <string name="recipient">Recipient</string>
+
+    <string name="delivery_confirmation">Delivery Confirmation</string>
+    <string name="delivery_confirmation_code">Please enter the confirmation code received from receipient.</string>
+
+    <string name="btn_invite" tools:ignore="UnusedResources" >Invite</string>
+    <string name="sneak_peek">Sneak Peek</string>
+    <string name="delivery_item">Delivery Item: </string>
+    <string name="delivery_description">Delivery Description</string>
+    <string name="btn_navigate" >Navigate</string>
+    <string name="btn_delivery_details" >Delivery Details</string>
+    <string name="slide_to_begin_travel">Slide to begin travel➞ </string>
+    <string name="search_for_city" tools:ignore="UnusedResources">Search for a city</string>
+    <string name="search_for_location">Search for a location</string>
+    <string name="class_item" >Class:</string>
+    <string name="body_item" >Body:</string>
+    <string name="company_item" >Company:</string>
+    <string name="year_item">Year:</string>
+    <string name="btn_add_truck" >Add truck</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_company">Company</string>
+    <string name="menu_pallet_number">Pallet Number</string>
+    <string name="menu_production_year">Production Year</string>
+    <string name="menu_owner_name">Owner Name</string>
+    <string name="menu_owner_id">Owner ID</string>
+    <string name="menu_owner_phone">Owner Phone</string>
+    <string name="menu_details">Details</string>
+    <string name="menu_model">Model</string>
+    <string name="menu_insurance">Insurance</string>
+    <string name="my_bids">My Bids</string>
+    <string name="btn_cancel_delivery" >Cancel Delivery</string>
+    <string name="btn_pickup_load" >Pickup Load</string>
+    <string name="btn_arrived" >Arrived</string>
+    <string name="load_date">Load Date</string>
+    <string name="unload_date">Unload Date</string>
+    <string name="load_location">Load Location</string>
+    <string name="unload_location">Unload Location</string>
+    <string name="saved_search">Saved Search</string>
+    <string name="select_your_truck">Select Your Truck</string>
+    <string name="search_for_loads">Search for Loads</string>
+    <string name="tab_mapview">Map View</string>
+    <string name="tab_listview">List View</string>
+    <string name="select_location_from_map">Select location from map</string>
+    <string name="saved_locations" tools:ignore="UnusedResources">Saved Locations</string>
+    <string name="recent_locations">Recent Locations</string>
+    <string name="nearby_locations" tools:ignore="UnusedResources">Nearby Locations</string>
+    <string name="pickup_date">Pickup Date</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="btn_send_your_bids" >Send your bid</string>
+    <string name="btn_confirm" >Confirm</string>
+    <string name="btn_start" >Start</string>
+    <string name="bid_details" >Bid Details</string>
+    <string name="fare">Fare</string>
+    <string name="btn_collect_payment" >Collect Payment</string>
+    <string name="travel_summary">Travel Summary</string>
+    <string name="payment_type_item">Payment Type:</string>
+    <string name="details">Details</string>
+    <string name="promode_applied" tools:ignore="UnusedResources">Promo code discount applied :</string>
+    <string name="collect_money" >Please collect money from recipient</string>
+    <string name="btn_delete"  tools:ignore="UnusedResources">Delete</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="card" >Card</string>
+    <string name="delivery_location">Delivery Location</string>
+    <string name="chk_negotiable" >Negotiable</string>
+    <string name="ad_availability" >Ad Availability</string>
+    <string name="hours_24">24 hours</string>
+    <string name="days_3" >3 Days</string>
+    <string name="days_7" >7 Days</string>
+    <string name="my_ads">My Ads</string>
+
+    <string name="slide_to_end_travel_and_delivery">Slide To End Travel And Delivery➞</string>
+    <string name="notice_confirm_arrival"> <![CDATA[ <p> Are you sure you have arrived at <br>
+        the pickup location? If you click<br>
+         continue direction to pickup<br>
+         will end.
+    ]]></string>
+
+
+    <string-array name="DialingCountryCode" >
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+    <string name="truck_token">bearer 1u1-2Yv7pHLnIe46zIFzsktoKayl5h61k56AOZHltpckhCOaXVDpY_Y_BGJvWBsp9sjFIEGnveTmslAAaj_V5mK8AdMyb283MnZIu3rin5nc94xbQqNuNz0XsT71MCZUhZCIqIVNPB4lKgUT4Q70xt5mQa_UAwDIzWwrzuzVgP56Q65Hd9pmr1kKcUrAJbGJ_nJfnr5S5VNSFNT96355WRheJ5So9wiAyzo9UmdVcafJlFeb0eW4beV5rxvRY5hZrTm4SQzvCncFAGTjwjtNbvV0ACs0uRXNpCYwLd9Tsb3yHzGyYs5yhz_sJWwsDYL0Wkukmie7P1Oyc7lc8ApGEYz9jbuvZLWCjk5OnIUGpzIwETcPp0uvRM41M1DnBPhZgMKNg0N0JBQv059TU6OCjj7sz_So9q1JftoYpDmJRHNvI1EYoZrsGuxnSh1TcO_5DmmcZ4JlL2ayPYLMjc90KiDB2Gd5TDDwT01brFDj_qmzDuOfaSO185ma4xsvRshDgl8i86q6Mv0oruLNrvlZjM6Tp6eVaofPXJCLM7bjEqatMm9hbZs-Q-efCCzGnosXr3lkLzmxbcJzPUeCZq9dUhivmu1_ak4fvM9jupQGrrNFrtsThCUWpBjUj6sElok9jrvF_J7kBBIPT56_yXAXh-Otdy-ce1nYDJkm73Df3mCa_XtIqcaeJJqRv7Cx44HteSjVu9YBUMAF4oKGfRDr6g</string>
+    <string name="truck_token1">bearer n8UnzeRuqQsST1AR_oBF9iDPE6WLIM34M6kX3dQplRKvlzlIg7tmf7M7UlT4vJ5oCtKFVUPst7DnsyaV1Nzo7-9FcXg0beQ9dHdNtCPXyR3mn_6yceks0ouTm0iJkmx7VCOyIy_7UPJyk9zUrB25YZ1SyUjJyxun66LDNGEmgs6Wc7QSzncyfrqvv0I1RUM2maQiuCfYJpArO1xLLLapwdDSEjho_M2ZKLOGuWsXiFsf8yNcUmtqUQBMOAUOMApFPPy0iR1v2Xz1lxeFYyZoHYItSpG5IplzYKDFv104BhWi_6-UqthtxhEX3lItpV6o4hkwuJsGekVijmdIxmgtTjqWozuJMcZ3plLyWB2JjqHISXwVQZUn0lfkg7a1GS9WbV5u6sfa21JjoGNJEA6DvWie01vLdXiVUnaVQD-iBEdIbOpEBlE3Hu6vcog1Ndz45qwHTijSRePbL5N8Zvl6XItH5j8234PM4T0ZrRn8Amq2cYICfzhIIFseWPDv7Yr8BfjPzVgPGSGB2YY2wuCO04BpVzmndtAKrIMFzZ9NV7dDn-HzHU3ZLxkqhMf2sgDvuG5F__OpfJJxrLzmngDm_z9JiSdMdv67FIeYixvnbXdxk4W7pTtBbn706BxK4R2P7ZKxmgO8F38B9-p3Zz7OIW7jgvJTtsbBRlrNXkogUgk3pCHVLRT0TrbGYhZtsKKD</string>
+    <string name="truck_token2">bearer sotKxDoWQYjqbUpJ9zoCdlPfcmU5bUfjheCj-T7mMvn3AfQxdhOhiwB6KyCgam1aU6kxhhz-bM4VGT04zrtE85izbkefVVwxHpZfYl2NXDUR9nBSewcYvKWe0jNqGEj3JYKpe5HOBTBbHHTlDIEuzr-FIDkzsSy_P9sTzUUzmNrOeRYcZx4nQoUVnPTcAexlBNtIdVIkIM60g4p9Tnk4IBsR4uSyMxXuFrAjA6GTg57hYsJlfiCb0bt-cW-PfP2UMTQ4snGfI92cjVz_DcI2y3i97j_aRLDeye4W872OszjhP-iHtbsOAlPU1PCIS5R_jNLEq7c849UxNVv_5MjGuQyEIA1dW-w-yyj4dWpL3YVKBE5JPioP2VkffrsQOKD_Mw9POGjqo1UBycsbDEP8EjIUr8PQFLTCE2JpzCxkBCma7SFPrksgdlzpsfpPIe1SDIDYX0uNUQriCLBuwnFNMIVbJ6wtxyo0Dx-y11gXG6N10Ncq6OO18BgBkswVyu6Oomzb7T24mbwI5_C9LO0OdjaNMvc-pbJXtpJ9LIL3AAydv1fQbBnLF5WmEB1CIkHa_TEnX9WzKOzpIfd_qFTSnAp8h-zmggx6cUWGN-kPbmgPdVVHJTQnmPfGdFhlK9AHi6vmL1c_RCiOte7sh8P3Bon3WWy0qM5U-f-GktcLBOw</string>
+    <string name="truck_token3">bearer mvxYy9VIJl-P-i29Ow_NdEgNqiqKLsE1gmO8u_Bmd7oUtBUwECrxOstuvbq8M9rAv3U7y9eOxAzpEZRj9P9Rqz__BXMZ80MkEoTWukWmuWhLTNQrD0QQHDKn6lSdDt7DCIIKMX8ojtslLZX2OdXncxAcTUY8bZQqvGbBf7e7lDHtRgHnap3et6CqVdghyaYWpH_uYxn7b0JaOUMnhgIcE6_SVahlrrPxV1_7kWav2Rbi8AKxDlIN3mbRLqui5R62RSZ8w4puV-5jsmiHKJu7q9WATnL39k2BsKgpWG5EFsPl8DpK2tf9eMz4EaIdHTqU_sbOUb8rN1ypH23O0B9VbL5gOLMkoXmqoMzbDoSXAvijQnJ5whyMAa3W3YqhH081IVonxn6w95yltCIw4BmRpsWzHbJOZT1WCUCSksLKLUTgvUBdZ5Lgvb_0HSk2gLwsTCA1z25tIGK2Yjjx3Kfi-6ybgmlQnt61sPNRSXI7NU9KfUraYjft04sXFkz82PRCLYxqhzq3bKdKEBcgPaLYgkGSbrAdgshCsnea8e6b_nGP0QXnH-UhaXovZGCGZ-ruKuEaplPEwP89RSgPc5wSYKRgIBa9m-xqj7136pVNClVQ8uuDaBy4I0hxKQ89L8Tsyw_wGhcW5XCGnw0BI1yGP1x_xU4wNuAVke4z8mGHfcId3IHInzqDhBWjflS-2w9_u3BuGR0JdDcE13C1JKBef04kVkvC_4bm14mJtmj0TTk</string>
+
+    <string name="error_enter_balance">Please enter the balance</string>
+    <string name="error_enter_comment">Please enter the comment</string>
+    <string name="error_enter_email">Please enter the email</string>
+    <string name="error_enter_password">Please enter the password</string>
+    <string name="error_enter_phonenumber">Please enter the Phone Number</string>
+    <string name="error_enter_firstname">Please enter the First Name</string>
+    <string name="error_enter_lastname">Please enter the Last Name</string>
+
+    <string name="error_enter_cardnumber">Please enter the Card Number</string>
+    <string name="error_enter_cvv">Please enter the CVV</string>
+    <string name="error_enter_expiredate">Please enter the Expire Date</string>
+    <string name="error_enter_cardholder_name" tools:ignore="UnusedResources">Please enter the Card holder name</string>
+
+    <string name="success_charge_balance">Succeed in Charging Balance</string>
+    <string name="failure_charge_balance" tools:ignore="UnusedResources">Failed to Charge Balance</string>
+    <string name="error_failed_edit_profile">Failed to Edit Profile</string>
+
+    <string name="error_enter_delivery_date">Please enter the delivery date</string>
+    <string name="error_enter_pickup_date">Please enter the pickup date</string>
+    <string name="error_enter_budget_price">Please enter the budget price</string>
+    <string name="error_enter_pickup_location">Please enter the pickup location</string>
+    <string name="error_enter_delivery_location">Please enter the delivery location</string>
+
+    <string name="hint_company_email">Company Email</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="enter_company_email">Please enter the company email</string>
+    <string name="enter_company_name">Please enter the company name</string>
+    <string name="search_for_load">Search For Load</string>
+
+
+    <string name="locale_english">en</string>
+    <string name="locale_arabic">ar</string>
+    <string name="error_enter_save_name">Please enter the save name</string>
+    <string name="my_bid">My Bid</string>
+    <string name="change_language_sucess" >Locale Changed</string>
+    <string name="cover_letter" >Cover Letter</string>
+    <string name="error_enter_cover_letter">Please enter the cover letter</string>
+    <string name="success_verify_phone">Succeed in Verifying phone</string>
+    <string name="failure_verify_phone">Please enter the correct phone code</string>
+    <string name="title_load_details">Load Details</string>
+    <string name="title_search_filter">Filter</string>
+    <string name="title_bid_details">Bids Details</string>
+    <string name="title_pickup_load">Pickup Load</string>
+    <string name="title_delivery_details">Delivery Details</string>
+    <string name="title_travel">Travel</string>
+    <string name="title_your_travel">Your Travel</string>
+    <string name="title_rating">Rating</string>
+    <string name="title_charge_balance">Charge your Balance</string>
+    <string name="title_map">Map</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search_location">Location</string>
+    <string name="title_send_offer">Send Offer</string>
+    <string name="title_signin">Sign In</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="title_truck">Truck</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_verify_account">Verify Account</string>
+    <string name="title_add_truck">Add Truck</string>
+    <string name="title_ad_details">Ads Details</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_gender">Gender</string>
+    <string name="error_enter_birthday">Please enter the birthday</string>
+    <string name="enter_promocode">Please enter the promo code</string>
+    <string name="title_transaction_history">TRANSACTION HISTORY</string>
+    <string name="tab_all">All</string>
+    <string name="tab_money_in">Money In</string>
+    <string name="tab_money_out">Money Out</string>
+    <string name="title_add_payment_method">ADD A PAYMENT METHOD</string>
+    <string name="btn_edit">Edit</string>
+    <string name="title_edit_ad">Edit Your Ads</string>
+    <string name="error_invalid_email">Please enter the valid email address</string>
+    <string name="rate_app">Rate the SawaTruck App</string>
+    <string name="error_get_messages">Failed to fetch messages history</string>
+
+
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Loosen the refresh data</string>
+    <string name="xlistview_header_hint_loading">loading...</string>
+    <string name="xlistview_header_last_time">Last updated：</string>
+    <string name="xlistview_footer_hint_normal">see more</string>
+    <string name="xlistview_footer_hint_ready">Loose more</string>
+    <string name="xlistview_header_hint_success">Refresh success</string>
+    <string name="xlistview_header_hint_failt">Refresh failed</string>
+    <string name="not_updated_yet">Not yet updated</string>
+    <string name="updated_at">Last updated at% 1s</string>
+    <string name="updated_just_now">Just updated</string>
+    <string name="time_error">Time is problematic</string>
+    <string name="error_send_message">Failed to Send Message.</string>
+    <string name="yesturday">Yesturday</string>
+    <string name="today">Today</string>
+    <string name="enter_cardnumber">Enter Card Number</string>
+    <string name="enter_expire_date">Enter Expire Date</string>
+    <string name="enter_cvv" >Enter CVV</string>
+    <string name="error_enter_correct_expire_month">Enter correct expire month</string>
+    <string name="sidemenu_my_loads">My Loads</string>
+    <string name="sidemenu_my_bookings">My Bookings</string>
+    <string name="btn_post_loads">Post your loads</string>
+    <string name="AND">and</string>
+    <string name="hint_load_description">Enter load description</string>
+    <string name="error_enter_load_description">Please enter the load description</string>
+    <string name="error_enter_recipient_name">Please enter recipient name</string>
+    <string name="error_enter_recipient_phone">Please enter the recipient phone</string>
+    <string name="hint_pickup_date">Pickup Date</string>
+    <string name="hint_pickup_location">Pickup Location</string>
+    <string name="hint_delivery_date">Delivery Date</string>
+    <string name="hint_delivery_location">Delivery Location</string>
+    <string name="best_price" >Best Price</string>
+
+    <string name="network_unavailable">Network Unavailable</string>
+    <string name="error_add_truck_photo">Please upload truck photo</string>
+    <string name="error_file_not_exist">File does not exist</string>
+    <string name="error_enter_pallet_number">Please enter pallet number</string>
+    <string name="error_enter_production_year">Please enter production year</string>
+    <string name="error_enter_model">Please enter model</string>
+    <string name="error_enter_owner_name">Please enter owner name</string>
+    <string name="enter_cardholdername">Enter card holder name</string>
+    <string name="your_offer">Your Offer</string>
+    <string name="arriving">Arriving</string>
+    <string name="no_bids">No Bids</string>
+    <string name="title_invite_drivers">Invite Drivers</string>
+    <string name="country">Country: </string>
+    <string name="price">Price</string>
+    <string name="error_select_truck_type">Please select truck type</string>
+    <string name="error_select_truck_body_type">Please select truck body type</string>
+    <string name="error_select_truck_class">Please select truck class</string>
+    <string name="error_enter_price">Please enter the price</string>
+    <string name="error_select_currency">Please select currency</string>
+    <string name="error_select_payment_method">Please select payment method</string>
+    <string name="error_add_profile_photo">Please upload profile photo</string>
+    <string name="cash">Cash</string>
+    <string name="setting_verify_email">Verify Email</string>
+    <string name="error_delivery_date_ahead">Delivery Date should be behind Pickup Date</string>
+    <string name="error_date_ahead_today">Please enter date behind today</string>
+    <string name="driver_location">Driver Location</string>
+    <string name="error_accept_terms">You should accept terms!</string>
+    <string name="kilometer"> km</string>
+    <string name="tab_active">Active</string>
+    <string name="error_loading_booking_details">Loading Booking Details</string>
+    <string name="title_active_boooking">Active Booking</string>
+    <string name="title_cancel_boooking">Canceled Booking</string>
+    <string name="error_press_again">Press again to exit</string>
+    <string name="error_load_null">load is empty</string>
+    <string name="share_travel">Share Travel</string>
+    <string name="search_for_ad">Search for ad</string>
+    <string name="bulk_type">Bulk Type</string>
+    <string name="volume">Volume</string>
+    <string name="advertisement_location">Advertisement location</string>
+    <string name="sidemenu_todo">ToDo</string>
+    <string name="locale_spanish">es</string>
+    <string name="btn_splash_arabic">عربي</string>
+    <string name="btn_splash_english">English</string>
+    <string name="btn_splash_spanish">Español</string>
+    <string name="choose_one_reason">Please check  more than one reason</string>
+    <string name="pickup_time">Pickup Time</string>
+    <string name="scroll_to_select_load_type">Scroll to select load type</string>
+    <string name="btn_unaccept">UnAccept</string>
+    <string name="no_driver_phone">No driver phone</string>
+    <string name="booked_offer">Price of Booked Offer</string>
+    <string name="tab_completed">Completed</string>
+    <string name="rate_driver">Rate Driver</string>
+
+</resources>

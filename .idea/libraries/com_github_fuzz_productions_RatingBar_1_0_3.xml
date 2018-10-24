@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.fuzz-productions:RatingBar-1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/RatingBar-1.0.3.aar/ce309f48b7e81f4c28ae2bdada6c3dbd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/RatingBar-1.0.3.aar/ce309f48b7e81f4c28ae2bdada6c3dbd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fuzz-productions/RatingBar/1.0.3/2fc51a4eb7be86d3b68b333a0278e2e2c03dc7ea/RatingBar-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

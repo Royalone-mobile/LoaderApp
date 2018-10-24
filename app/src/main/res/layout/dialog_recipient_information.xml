@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sawatruck.loader.view.design.CustomTextView
+        android:id="@+id/txt_loadSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:text="@string/recipient_information"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <com.sawatruck.loader.view.design.CustomEditText
+            android:id="@+id/edit_recipient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorLightGray"
+            android:textColor="@color/colorDarkGray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_phone_code"
+                android:minWidth="@dimen/dimen30"
+                android:layout_marginStart="@dimen/dimen20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <com.sawatruck.loader.view.design.CustomEditText
+                android:id="@+id/edit_recipient_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_phonenumber"
+                android:inputType="text|phone"
+                android:layout_marginStart="@dimen/dimen10"
+                android:textColorHint="@color/colorLightGray"
+                android:textColor="@color/colorDarkGray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginLeft="@dimen/dimen20"
+        android:layout_marginRight="@dimen/dimen20"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/dimen20"
+        android:layout_marginStart="@dimen/dimen20">
+
+        <RadioButton
+            android:id="@+id/radio_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/cash"
+            android:textColor="@color/colorDarkGray" />
+
+        <RadioButton
+            android:id="@+id/radio_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/credit_card"
+            android:textColor="@color/colorDarkGray" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/weak_round_button"
+        android:text="@string/book"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="12dp" />
+</LinearLayout>

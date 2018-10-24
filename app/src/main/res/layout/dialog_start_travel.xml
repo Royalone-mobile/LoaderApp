@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sawatruck.loader.view.design.CustomTextView
+        android:id="@+id/txt_loadSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#888"
+        android:textSize="16dp"
+        android:text="@string/start_travel"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_startTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:background="@drawable/weak_round_button"
+        android:text="@string/track_load"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>
